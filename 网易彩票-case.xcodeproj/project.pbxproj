@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F59033891C283F9200411DBD /* DDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F59033881C283F9200411DBD /* DDTabBarViewController.m */; settings = {ASSET_TAGS = (); }; };
+		F590338C1C28497A00411DBD /* DDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F590338B1C28497A00411DBD /* DDTabBar.m */; settings = {ASSET_TAGS = (); }; };
+		F5B9353C1C280BEA0035FA30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B9353B1C280BEA0035FA30 /* main.m */; };
+		F5B9353F1C280BEA0035FA30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B9353E1C280BEA0035FA30 /* AppDelegate.m */; };
+		F5B935421C280BEA0035FA30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B935411C280BEA0035FA30 /* ViewController.m */; };
+		F5B935451C280BEA0035FA30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B935431C280BEA0035FA30 /* Main.storyboard */; };
+		F5B935471C280BEA0035FA30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5B935461C280BEA0035FA30 /* Assets.xcassets */; };
+		F5B9354A1C280BEA0035FA30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5B935481C280BEA0035FA30 /* LaunchScreen.storyboard */; };
+		F5B935551C280BEA0035FA30 /* _____caseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B935541C280BEA0035FA30 /* _____caseTests.m */; };
+		F5B935601C280BEB0035FA30 /* _____caseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5B9355F1C280BEB0035FA30 /* _____caseUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5B935511C280BEA0035FA30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B9352F1C280BEA0035FA30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B935361C280BEA0035FA30;
+			remoteInfo = "网易彩票-case";
+		};
+		F5B9355C1C280BEB0035FA30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5B9352F1C280BEA0035FA30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B935361C280BEA0035FA30;
+			remoteInfo = "网易彩票-case";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F59033871C283F9200411DBD /* DDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTabBarViewController.h; sourceTree = "<group>"; };
+		F59033881C283F9200411DBD /* DDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTabBarViewController.m; sourceTree = "<group>"; };
+		F590338A1C28497A00411DBD /* DDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTabBar.h; sourceTree = "<group>"; };
+		F590338B1C28497A00411DBD /* DDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTabBar.m; sourceTree = "<group>"; };
+		F5B935371C280BEA0035FA30 /* 网易彩票-case.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易彩票-case.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B9353B1C280BEA0035FA30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5B9353D1C280BEA0035FA30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5B9353E1C280BEA0035FA30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5B935401C280BEA0035FA30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5B935411C280BEA0035FA30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5B935441C280BEA0035FA30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5B935461C280BEA0035FA30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5B935491C280BEA0035FA30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5B9354B1C280BEA0035FA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B935501C280BEA0035FA30 /* 网易彩票-caseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网易彩票-caseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B935541C280BEA0035FA30 /* _____caseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____caseTests.m"; sourceTree = "<group>"; };
+		F5B935561C280BEA0035FA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5B9355B1C280BEB0035FA30 /* 网易彩票-caseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网易彩票-caseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B9355F1C280BEB0035FA30 /* _____caseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____caseUITests.m"; sourceTree = "<group>"; };
+		F5B935611C280BEB0035FA30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5B935341C280BEA0035FA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B9354D1C280BEA0035FA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B935581C280BEB0035FA30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F590337D1C283E6C00411DBD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F590337E1C283E6C00411DBD /* Controller */,
+				F590337F1C283E6C00411DBD /* Model */,
+				F59033801C283E6C00411DBD /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F590337E1C283E6C00411DBD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F59033871C283F9200411DBD /* DDTabBarViewController.h */,
+				F59033881C283F9200411DBD /* DDTabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F590337F1C283E6C00411DBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F59033801C283E6C00411DBD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F590338A1C28497A00411DBD /* DDTabBar.h */,
+				F590338B1C28497A00411DBD /* DDTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5B9352E1C280BEA0035FA30 = {
+			isa = PBXGroup;
+			children = (
+				F5B935391C280BEA0035FA30 /* 网易彩票-case */,
+				F5B935531C280BEA0035FA30 /* 网易彩票-caseTests */,
+				F5B9355E1C280BEB0035FA30 /* 网易彩票-caseUITests */,
+				F5B935381C280BEA0035FA30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B935381C280BEA0035FA30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5B935371C280BEA0035FA30 /* 网易彩票-case.app */,
+				F5B935501C280BEA0035FA30 /* 网易彩票-caseTests.xctest */,
+				F5B9355B1C280BEB0035FA30 /* 网易彩票-caseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5B935391C280BEA0035FA30 /* 网易彩票-case */ = {
+			isa = PBXGroup;
+			children = (
+				F5B9356D1C280C160035FA30 /* Classes */,
+				F5B9353D1C280BEA0035FA30 /* AppDelegate.h */,
+				F5B9353E1C280BEA0035FA30 /* AppDelegate.m */,
+				F5B935401C280BEA0035FA30 /* ViewController.h */,
+				F5B935411C280BEA0035FA30 /* ViewController.m */,
+				F5B935431C280BEA0035FA30 /* Main.storyboard */,
+				F5B935461C280BEA0035FA30 /* Assets.xcassets */,
+				F5B935481C280BEA0035FA30 /* LaunchScreen.storyboard */,
+				F5B9354B1C280BEA0035FA30 /* Info.plist */,
+				F5B9353A1C280BEA0035FA30 /* Supporting Files */,
+			);
+			path = "网易彩票-case";
+			sourceTree = "<group>";
+		};
+		F5B9353A1C280BEA0035FA30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5B9353B1C280BEA0035FA30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5B935531C280BEA0035FA30 /* 网易彩票-caseTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B935541C280BEA0035FA30 /* _____caseTests.m */,
+				F5B935561C280BEA0035FA30 /* Info.plist */,
+			);
+			path = "网易彩票-caseTests";
+			sourceTree = "<group>";
+		};
+		F5B9355E1C280BEB0035FA30 /* 网易彩票-caseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5B9355F1C280BEB0035FA30 /* _____caseUITests.m */,
+				F5B935611C280BEB0035FA30 /* Info.plist */,
+			);
+			path = "网易彩票-caseUITests";
+			sourceTree = "<group>";
+		};
+		F5B9356D1C280C160035FA30 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F590337D1C283E6C00411DBD /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5B935361C280BEA0035FA30 /* 网易彩票-case */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B935641C280BEB0035FA30 /* Build configuration list for PBXNativeTarget "网易彩票-case" */;
+			buildPhases = (
+				F5B935331C280BEA0035FA30 /* Sources */,
+				F5B935341C280BEA0035FA30 /* Frameworks */,
+				F5B935351C280BEA0035FA30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网易彩票-case";
+			productName = "网易彩票-case";
+			productReference = F5B935371C280BEA0035FA30 /* 网易彩票-case.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5B9354F1C280BEA0035FA30 /* 网易彩票-caseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B935671C280BEB0035FA30 /* Build configuration list for PBXNativeTarget "网易彩票-caseTests" */;
+			buildPhases = (
+				F5B9354C1C280BEA0035FA30 /* Sources */,
+				F5B9354D1C280BEA0035FA30 /* Frameworks */,
+				F5B9354E1C280BEA0035FA30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B935521C280BEA0035FA30 /* PBXTargetDependency */,
+			);
+			name = "网易彩票-caseTests";
+			productName = "网易彩票-caseTests";
+			productReference = F5B935501C280BEA0035FA30 /* 网易彩票-caseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5B9355A1C280BEB0035FA30 /* 网易彩票-caseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5B9356A1C280BEB0035FA30 /* Build configuration list for PBXNativeTarget "网易彩票-caseUITests" */;
+			buildPhases = (
+				F5B935571C280BEB0035FA30 /* Sources */,
+				F5B935581C280BEB0035FA30 /* Frameworks */,
+				F5B935591C280BEB0035FA30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5B9355D1C280BEB0035FA30 /* PBXTargetDependency */,
+			);
+			name = "网易彩票-caseUITests";
+			productName = "网易彩票-caseUITests";
+			productReference = F5B9355B1C280BEB0035FA30 /* 网易彩票-caseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5B9352F1C280BEA0035FA30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DD;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = private;
+				TargetAttributes = {
+					F5B935361C280BEA0035FA30 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UP8389U8H4;
+					};
+					F5B9354F1C280BEA0035FA30 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UP8389U8H4;
+						TestTargetID = F5B935361C280BEA0035FA30;
+					};
+					F5B9355A1C280BEB0035FA30 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = UP8389U8H4;
+						TestTargetID = F5B935361C280BEA0035FA30;
+					};
+				};
+			};
+			buildConfigurationList = F5B935321C280BEA0035FA30 /* Build configuration list for PBXProject "网易彩票-case" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5B9352E1C280BEA0035FA30;
+			productRefGroup = F5B935381C280BEA0035FA30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5B935361C280BEA0035FA30 /* 网易彩票-case */,
+				F5B9354F1C280BEA0035FA30 /* 网易彩票-caseTests */,
+				F5B9355A1C280BEB0035FA30 /* 网易彩票-caseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5B935351C280BEA0035FA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B9354A1C280BEA0035FA30 /* LaunchScreen.storyboard in Resources */,
+				F5B935471C280BEA0035FA30 /* Assets.xcassets in Resources */,
+				F5B935451C280BEA0035FA30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B9354E1C280BEA0035FA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B935591C280BEB0035FA30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5B935331C280BEA0035FA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B935421C280BEA0035FA30 /* ViewController.m in Sources */,
+				F5B9353F1C280BEA0035FA30 /* AppDelegate.m in Sources */,
+				F59033891C283F9200411DBD /* DDTabBarViewController.m in Sources */,
+				F590338C1C28497A00411DBD /* DDTabBar.m in Sources */,
+				F5B9353C1C280BEA0035FA30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B9354C1C280BEA0035FA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B935551C280BEA0035FA30 /* _____caseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5B935571C280BEB0035FA30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B935601C280BEB0035FA30 /* _____caseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5B935521C280BEA0035FA30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B935361C280BEA0035FA30 /* 网易彩票-case */;
+			targetProxy = F5B935511C280BEA0035FA30 /* PBXContainerItemProxy */;
+		};
+		F5B9355D1C280BEB0035FA30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B935361C280BEA0035FA30 /* 网易彩票-case */;
+			targetProxy = F5B9355C1C280BEB0035FA30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5B935431C280BEA0035FA30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B935441C280BEA0035FA30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5B935481C280BEA0035FA30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5B935491C280BEA0035FA30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5B935621C280BEB0035FA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5B935631C280BEB0035FA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5B935651C280BEB0035FA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网易彩票-case/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-----case";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5B935661C280BEB0035FA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网易彩票-case/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-----case";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5B935681C280BEB0035FA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "网易彩票-caseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-----caseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网易彩票-case.app/网易彩票-case";
+			};
+			name = Debug;
+		};
+		F5B935691C280BEB0035FA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "网易彩票-caseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-----caseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网易彩票-case.app/网易彩票-case";
+			};
+			name = Release;
+		};
+		F5B9356B1C280BEB0035FA30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "网易彩票-caseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-----caseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "网易彩票-case";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F5B9356C1C280BEB0035FA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "网易彩票-caseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "darrendu.-----caseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "网易彩票-case";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5B935321C280BEA0035FA30 /* Build configuration list for PBXProject "网易彩票-case" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B935621C280BEB0035FA30 /* Debug */,
+				F5B935631C280BEB0035FA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B935641C280BEB0035FA30 /* Build configuration list for PBXNativeTarget "网易彩票-case" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B935651C280BEB0035FA30 /* Debug */,
+				F5B935661C280BEB0035FA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B935671C280BEB0035FA30 /* Build configuration list for PBXNativeTarget "网易彩票-caseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B935681C280BEB0035FA30 /* Debug */,
+				F5B935691C280BEB0035FA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5B9356A1C280BEB0035FA30 /* Build configuration list for PBXNativeTarget "网易彩票-caseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5B9356B1C280BEB0035FA30 /* Debug */,
+				F5B9356C1C280BEB0035FA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5B9352F1C280BEA0035FA30 /* Project object */;
+}

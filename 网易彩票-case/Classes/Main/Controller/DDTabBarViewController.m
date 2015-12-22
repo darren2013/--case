@@ -11,8 +11,6 @@
 
 @interface DDTabBarViewController ()<DDTabBarDelegate>
 
-@property(nonatomic,weak)UIButton *selectedBtn;
-
 @end
 
 @implementation DDTabBarViewController
@@ -21,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    NSLog(@"%s",__func__);
+    //NSLog(@"%s",__func__);
     
     //tabBar里的item的图片大小是30x30如果@x2,则是60x60
     
@@ -30,6 +28,15 @@
     
     DDTabBar *tabBar = [[DDTabBar alloc] initWithFrame:self.tabBar.bounds];
     tabBar.delegate = self;
+    
+    for(int i = 0;i < 5;i++){
+        NSString *imageName = [NSString stringWithFormat:@"TabBar%d",(i+1)];
+        //设置按钮选中状态
+        NSString *selectedImageName = [NSString stringWithFormat:@"TabBar%dSel",i+1];
+        [tabBar addTabBarBtnWithNormalImageName:imageName selectedImageName:selectedImageName];
+    }
+
+    
     [self.tabBar addSubview:tabBar];
 }
 

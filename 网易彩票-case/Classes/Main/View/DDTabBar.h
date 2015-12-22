@@ -19,4 +19,11 @@
 
 @property(nonatomic,weak)id<DDTabBarDelegate> delegate;
 
+-(void)addTabBarBtnWithNormalImageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName;
+
+@end
+
+
+@interface DDTabBarButton : UIButton
+
 @end

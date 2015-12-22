@@ -41,55 +41,80 @@
 
 
 
--(instancetype)initWithFrame:(CGRect)frame{
-    if (self = [super initWithFrame:frame]) {
-        [self setupBtns];
+//-(instancetype)initWithFrame:(CGRect)frame{
+//    if (self = [super initWithFrame:frame]) {
+//        [self setupBtns];
+//    }
+//    
+//    return self;
+//}
+//
+//-(void)setupBtns{
+//    
+//    
+//    //往自定义的tabBarView添加5个按钮
+//    for(int i = 0;i < 5;i++){
+//        NSString *imageName = [NSString stringWithFormat:@"TabBar%d",(i+1)];
+//        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+//        [self addSubview:btn];
+//        [btn setBackgroundImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
+//        
+//        //设置按钮选中状态
+//        NSString *selectedImageName = [NSString stringWithFormat:@"TabBar%dSel",i+1];
+//        [btn setBackgroundImage:[UIImage imageNamed:selectedImageName] forState:UIControlStateSelected];
+//        
+//        btn.tag = i;
+//        [btn addTarget:self action:@selector(btnClicked:) forControlEvents:UIControlEventTouchUpInside];
+//        
+//       
+//        
+//        if (i == 0) {
+//            btn.selected = YES;
+//            self.selectedBtn = btn;
+//        }
+//}
+//    
+//}
+
+
+-(void)addTabBarBtnWithNormalImageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName{
+    UIButton *btn = [DDTabBarButton buttonWithType:UIButtonTypeCustom];
+    btn.tag = self.subviews.count;
+    [btn setBackgroundImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
+    
+    //设置按钮选中状态
+    
+    [btn setBackgroundImage:[UIImage imageNamed:selectedImageName] forState:UIControlStateSelected];
+    [btn addTarget:self action:@selector(btnClicked:) forControlEvents:UIControlEventTouchDown];
+    
+    
+    
+    if (self.subviews.count == 0) {
+        //btn.selected = YES;
+        //self.selectedBtn = btn;
+        //直接模拟点击第一个barButtonItem
+        [self btnClicked:btn];
     }
     
-    return self;
+    [self addSubview:btn];
 }
 
--(void)setupBtns{
-    
-    
-    //往自定义的tabBarView添加5个按钮
-    for(int i = 0;i < 5;i++){
-        NSString *imageName = [NSString stringWithFormat:@"TabBar%d",(i+1)];
-        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-        [self addSubview:btn];
-        [btn setBackgroundImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
-        
-        //设置按钮选中状态
-        NSString *selectedImageName = [NSString stringWithFormat:@"TabBar%dSel",i+1];
-        [btn setBackgroundImage:[UIImage imageNamed:selectedImageName] forState:UIControlStateSelected];
-        
-        btn.tag = i;
-        [btn addTarget:self action:@selector(btnClicked:) forControlEvents:UIControlEventTouchUpInside];
-        
-       
-        
-        if (i == 0) {
-            btn.selected = YES;
-            self.selectedBtn = btn;
-        }
-}
-    
 
-
-
-    
-}
 
 -(void)layoutSubviews{
     
     
-    CGFloat btnW = self.bounds.size.width / 5;
+    CGFloat btnW = self.bounds.size.width / self.subviews.count;
     CGFloat btnH = self.bounds.size.height;
     
     //往自定义的tabBarView添加5个按钮
-    for(int i = 0;i < 5;i++){
-        UIButton *btn = self.subviews[i];
-        btn.frame = CGRectMake(btnW * i, 0, btnW, btnH);
+//    for(int i = 0;i < 5;i++){
+//        UIButton *btn = self.subviews[i];
+//        btn.frame = CGRectMake(btnW * i, 0, btnW, btnH);
+//    }
+    
+    for (UIButton *btn in self.subviews) {
+        btn.frame = CGRectMake(btnW * btn.tag, 0, btnW, btnH);
     }
 
 }
@@ -106,6 +131,18 @@
     btn.selected = YES;
     self.selectedBtn = btn;
     
+    
+}
+
+@end
+
+@implementation DDTabBarButton
+
+-(void)setHighlighted:(BOOL)highlighted{
+   // NSLog(@"%s",__func__);
+    
+    //只要不调用父类的方法，就没有高亮的效果
+    //[super setHighlighted:NO];
     
 }
 
